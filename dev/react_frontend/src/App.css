@@ -1,0 +1,140 @@
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.app-background {
+  background-color: #d2dbe2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.main-container {
+  background-color: #455657;
+  width: 500px;
+  height: min-content;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 10px 10px 26px 0px rgba(0, 0, 0, 0.35);
+  margin: 0;
+  padding: 10;
+  font-family: sans-serif;
+  color: white;
+  font-size: 36px;
+}
+
+.title {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  font-size: 56px;
+  justify-content: center;
+  position: relative;
+  left:-8px;
+  padding-bottom: 30px;
+}
+
+.title img{
+  width: 47px;
+  height: auto;
+  float:left;
+  position: relative;
+  left: 15px;
+  top: 1px;
+}
+
+.add-item-box {
+  background: #faf8f8;
+  color: #11b656;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.add-item-input {
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  color: #070707;
+  width: 100%;
+  height: 30px;
+}
+
+input::placeholder {
+  color: #030303;
+}
+input:focus {
+  outline: 0;
+}
+
+button {
+  background: transparent;
+  border: none;
+  margin: 3px;
+  color: #e9372a;
+}
+button:focus {
+  outline: 0;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.react-logo img {
+  width: 50px;
+  height: auto;
+  display:block;
+  float:left;
+  position: relative;
+  top: -1px;
+  }
+
+.flask-logo img {
+  width: 50px;
+  height: auto;
+  display:block;
+  float:left;
+}
+
+.heart img {
+  width: 50px;
+  height: auto;
+  float:left;
+  position: relative;
+  left: -8px;
+  top:-2px;
+}
+
+.made-with {
+  padding-top: 0px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  font-family: sans-serif;
+  color: white;
+  font-size: 18px;
+  position: relative;
+  bottom: -15px;
+}
+
+.delete-item{
+  font-size:25px;
+  position: relative;
+  top:-1.5px;
+}
+
+.item-count {
+  font-size: 18px;
+}
+
+.item-display {
+  font-size: 30px;
+}
