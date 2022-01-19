@@ -1,22 +1,33 @@
 # Grocery Startup 
-## _A RESTful API with Flask & SQLAlchemy_
+## _A RESTful API with Flask, React, & SQLAlchemy_
 ---
 Coding project for Armada Power coding assessment. Even if I'm not selected for the role I would love feedback!
 ## Installation
 I used the version **Python 3.9.0** for development.
-To install dependencies use the following:
+
+To install dependencies navigate to the **flask_backend** and run:
 ```sh
 pip install -r requirements.txt
 ```
+Then navigate to the **react_frontend** folder & run:
+```sh
+npm install
+```
+
 
 ## How to run
-Start by running the main.py file:
+Start by navigating to the **flask_backend** folder & run the main.py file:
 ```sh
 python main.py
 ```
-Navigate to the following address in your browser:
+Next navigate to the **react_frontend** folder & run following command:
 ```sh
-127.0.0.1:5000
+npm start 
+```
+
+Finally, navigate to the following address in your browser for the React Front-end:
+```sh
+127.0.0.1:3000
 ```
 ---
 # API Documentation
@@ -174,12 +185,18 @@ Grabs all grocery item(s) from all lists or all grocery item(s) from one list.
   - Code: **200**
   - Content: 
     ```
-    {
-        "1": {
-          "grocery_list_id": 1, 
-          "item_name": "Milk"
-          }
-    }
+        {
+      "1": [
+            {
+              "id": "a389b1a8-764d-471c-8a64-8aafd39c6547", 
+              "item_name": "Milk"
+            }, 
+            {
+              "id": "645a5728-9acb-4014-84d9-ec6d9bfa7b2a", 
+              "item_name": "Bread"
+            }
+           ]
+         }
     ```
 - #### Error Response
   - Code: **404**
