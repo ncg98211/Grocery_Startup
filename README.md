@@ -1,5 +1,8 @@
 # Grocery Startup 
 ## _A RESTful API with Flask, React, & SQLAlchemy_
+
+![](https://github.com/ncg98211/Grocery_Startup/blob/f99c38b184631769f8d50341c11bcb8339d7e56e/React_demo.JPG)
+
 ---
 Coding project for Armada Power coding assessment. Even if I'm not selected for the role I would love feedback!
 ## Installation
