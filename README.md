@@ -9,7 +9,7 @@ To install dependencies navigate to the **flask_backend** and run:
 ```sh
 pip install -r requirements.txt
 ```
-Then navigate to the **react_frontend** folder & run:
+Then navigate to the **react_frontend** folder & run (make sure you have npm installed first):
 ```sh
 npm install
 ```
